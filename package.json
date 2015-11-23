@@ -1,6 +1,6 @@
 {
   "name": "memory-report",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "module for reporting memory consumption and optionally taking heap dumps on detected leaks",
   "main": "index.js",
   "scripts": {
