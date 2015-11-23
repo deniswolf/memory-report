@@ -18,7 +18,7 @@ module.exports = function(initSettings){
     });
   }
   memwatch.on('leak', function(info){
-    logger("MEMORY_REPORT:",info);
+    errorLogger("MEMORY_LEAK:",info);
 
     if(heapDumpEnabled){
       var dumpPath;
